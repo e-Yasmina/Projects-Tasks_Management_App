@@ -1,0 +1,22 @@
+.App {
+  /* display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 100vh;
+  background-color: #f9bc61;
+  overflow: hidden;
+  font-family: "Roboto";
+  padding: 16px;
+  gap: 16px;
+}
+.heading {
+	color: #000000;
+	/* letter-spacing: 5px; */
+	font-size: 2.6em;
+	margin-top: -100px;
+	padding: 0px 15px;
+}
