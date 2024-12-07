@@ -76,7 +76,14 @@
   margin: 0;
   font-weight: bold;
 }
+.content > .sticker{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
 
+}
 .content > .bottom {
   display: flex;
   justify-content: space-between;

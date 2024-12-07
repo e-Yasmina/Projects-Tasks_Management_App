@@ -1,5 +1,7 @@
 import React from "react";
 import "./card.css"; 
+import "../StickyNote/StickyNote";
+import StickyNote from "../StickyNote/StickyNote";
 
 const Card = (props) => {
   return (
@@ -22,7 +24,10 @@ const Card = (props) => {
           />
           
         </div>
-        <div className="bottom">
+        <div className="sticker">
+          <StickyNote/>
+        </div>
+        {/* <div className="bottom">
           <div>
             <p>Hue</p>
             <p>36</p>
@@ -35,7 +40,7 @@ const Card = (props) => {
             <p>Lum</p>
             <p>68</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

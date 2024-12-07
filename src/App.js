@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from "./components/card/card";
 import ProjectAccordion from './components/ProjectAccordion/ProjectAccordion';
+import StickyNote from './components/StickyNote/StickyNote';
 import "./App.css"; 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
             title="Projects management app:"
             description="Desktop application to manage projects and tasks."
             />
+            {/* <StickyNote/> */}
           </div>
           
           <Card 
